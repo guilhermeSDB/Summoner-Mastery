@@ -33,45 +33,9 @@
 }
 
 html {
-  --azul: #57d0cc;
-  --preto-brackground: #151515;
-  --branco-text: #f9f9f9;
-  --cinza-text: #9d9d9d;
-  --vermelho-texto: #be2525;
-}
-
-* {
-  background-color: var(--preto-brackground);
-  margin: 0;
-  padding: 0;
-  font-family: "BeaufortHeavy-Italic", sans-serif;
-}
-
-.subtitle-text,
-.warning-text,
-.subtitle-text-2nd {
-  font-family: "Beaufort-Light-Italic", sans-serif;
-}
-
-.container-fluid p,
-nav .container-fluid a,
-.subtitle-text-2nd {
-  color: var(--branco-text) !important;
-}
-
-.navbar-brand {
-  font-size: 5rem;
-}
-
-.container-fluid h1:nth-child(1n),
-nav .container-fluid span {
-  color: var(--azul);
-}
-
-.row .subtitle-text {
-  color: var(--cinza-text);
-}
-
-.warning-text {
-  color: var(--vermelho-texto);
-}
+    --azul: #57d0cc;
+    --preto-brackground: #151515;
+    --branco-text: #f9f9f9;
+    --cinza-text: #9d9d9d;
+    --vermelho-texto: #be2525;
+  }
